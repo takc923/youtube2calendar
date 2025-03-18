@@ -1,3 +1,4 @@
+importScripts('axios.min.js');
 
 chrome.runtime.onMessage.addListener(
 	function (request, sender, sendResponse) {
