@@ -1,5 +1,5 @@
-// Put your YouTube Data API v3 key here
-const key = '';
+// Import YouTube Data API v3 key from config.js
+import { key } from './config.js';
 
 chrome.runtime.onMessage.addListener(
 	function (request, sender, sendResponse) {
