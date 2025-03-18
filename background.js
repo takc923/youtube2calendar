@@ -1,4 +1,4 @@
-importScripts('axios.min.js');
+import axios from './axios.min.js';
 
 chrome.runtime.onMessage.addListener(
 	function (request, sender, sendResponse) {
