@@ -1,3 +1,6 @@
+// Put your YouTube Data API v3 key here
+const key = '';
+
 chrome.runtime.onMessage.addListener(
 	function (request, sender, sendResponse) {
 		switch (request.query) {
@@ -7,7 +10,6 @@ chrome.runtime.onMessage.addListener(
 				});
 				break;
 			case 'get_video_data':
-				const key = 'AIzaSyAgQilpJEVbK4gC8uaoNuSSFg_VqBVg-0Q';
 				let vide_id = encodeURIComponent(request.video_id);
 				let url = `https://www.googleapis.com/youtube/v3/videos?id=${vide_id}&key=${key}&part=snippet,liveStreamingDetails`;
 				fetch(url)
