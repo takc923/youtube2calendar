@@ -11,7 +11,6 @@
 
 ## 導入方法
 1. [リリースページ](https://github.com/Libra694/youtube2calendar/releases/latest)から `youtube2calendar.zip` をダウンロードし解凍
-1. `config.js.example` を `config.js` にコピーし、YouTube Data API v3のキーを設定してください
 1. アドレスバーに `chrome://extensions` と入力し開く
 1. 右上の `デベロッパーモード` トグルボタンを有効化
 1. 左上の `パッケージ化されてない拡張機能を読み込む` ボタンをクリックし解凍したディレクトリを選択

@@ -1,3 +1,0 @@
-// YouTube Data API v3 key
-// Replace with your own API key and rename this file to config.js
-export const key = 'YOUR_YOUTUBE_DATA_API_KEY_HERE';

@@ -4,22 +4,61 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>YouTubeLive2Calendar 設定</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			padding: 20px;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+		.section {
+			margin-bottom: 30px;
+			padding: 15px;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+		}
+		.section-title {
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		button {
+			padding: 5px 10px;
+			cursor: pointer;
+		}
+		#status, #auth-status {
+			margin-top: 10px;
+			padding: 5px;
+		}
+		.success {
+			color: green;
+		}
+		.error {
+			color: red;
+		}
+	</style>
 </head>
 
 <body>
 
-	Google Calendar ID:
-	<input id="calendar_id" type="text" placeholder="default">
-	<button id="save">保存</button>
-	<div id="status"></div>
+	<div class="section">
+		<div class="section-title">Google Calendar 設定</div>
+		<div>
+			Google Calendar ID:
+			<input id="calendar_id" type="text" placeholder="default">
+			<button id="save">保存</button>
+			<div id="status"></div>
+		</div>
+	</div>
 
-	<br><br><br>
-	※ Google Calendar ID を知る方法
-	<ul>
-		<li>英語: <a href="https://docs.simplecalendar.io/find-google-calendar-id">Simple Calendar Documentation</a>
-		</li>
-		<li>日本語: <a href="http://www.sukicomi.net/2018/07/google-calendarid.html">sukicomi</a></li>
-	</ul>
+	<div class="section">
+		<div class="section-title">ヘルプ</div>
+		<div>※ Google Calendar ID を知る方法</div>
+		<ul>
+			<li>英語: <a href="https://docs.simplecalendar.io/find-google-calendar-id" target="_blank">Simple Calendar Documentation</a>
+			</li>
+			<li>日本語: <a href="http://www.sukicomi.net/2018/07/google-calendarid.html" target="_blank">sukicomi</a></li>
+		</ul>
+	</div>
 
 	<script src="options.js"></script>
 </body>

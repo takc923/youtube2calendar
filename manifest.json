@@ -23,12 +23,17 @@
 		"type": "module"
 	},
 	"permissions": [
-		"storage"
+		"storage",
+		"identity"
 	],
 	"host_permissions": [
 		"https://www.googleapis.com/*"
 	],
 	"options_ui": {
 		"page": "options.html"
+	},
+	"oauth2": {
+		"client_id": "796253270666-50agj402br2bgao64qd1vsilh3m249ta.apps.googleusercontent.com",
+		"scopes": ["https://www.googleapis.com/auth/youtube.readonly"]
 	}
 }
